@@ -1,0 +1,132 @@
+
+        html {
+            scroll-behavior: auto;
+            background-color: #80edff;          
+            background-size: auto;
+        }
+
+        /* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+        .icon-bar {
+            position: fixed;
+            top: 50%;
+            -webkit-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+        }
+
+        /* Style the icon bar links */
+        .icon-bar a {
+            display: block;
+            text-align: center;
+            padding: 15px;
+            transition: all 0.3s ease;
+            color: white;
+            font-size: 20px;
+        }
+
+        /* Style the social media icons with color, if you want */
+        .icon-bar a:hover {
+            background-color: #000;
+        }
+
+        .facebook {
+            background: #3B5998;
+            color: white;
+        }
+
+        .twitter {
+            background: #55ACEE;
+            color: white;
+        }
+
+        .github {
+            background: black;
+            color: white;
+        }
+
+        .linkedin {
+            background: #007bb5;
+            color: white;
+        }
+
+        .youtube {
+            background: #bb0000;
+            color: white;
+        }
+
+        #desktop_1 {
+            height: 100vh;
+            width: 100vw;
+        }
+
+        .heading {
+            font-family: 'Ink Free';
+            color: black;
+            vertical-align: middle;
+            font-size: 300%;
+        }
+
+        #description {
+            font-family: 'Ink Free';
+            color: black;
+            vertical-align: middle;
+            font-size: 125%;
+            font-weight: bold;
+        }
+
+        .getstarted {
+            background-color: #e63946;
+            border: none;
+            border-radius: 8px;
+            color: white;
+            padding: 20px 34px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 100%;
+            font-weight: bold;
+            font-family: 'Ink Free';
+            margin-top: 10%;
+            cursor: pointer;
+            box-shadow: 10px, black, outset;
+        }
+
+        #desktop_2 {
+            height: 100vh;
+            width: 100vw;
+            font-size: 105%;
+            font-family: 'Ink Free';
+            font-weight: bold;
+            color: black;
+
+        }
+
+        .submit {
+            background-color: red;
+            font-size: 85%;
+            border: none;
+            border-radius: 4px;
+            color: white;
+            padding: 6px 8px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-family: 'Ink Free';
+            font-weight: bold;
+        }
+
+        #about {
+            height: 100vh;
+            width: 100vw;
+            color: black;
+            font-family: 'Ink Free';
+            font-weight: bold;
+        }
+
+        #aboutus
+            {
+            font-family: 'Ink Free';
+            color: black;
+            vertical-align: middle;
+            font-size: 300%;
+        }
